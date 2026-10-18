@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ajith Kumar Puli — Python Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;900&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="pre" aria-hidden="true"><i></i><div class="word" id="pw"></div></div>
+
+<div id="bar"></div><div id="glow" aria-hidden="true"></div>
+<header>
+  <a class="logo" href="#home">AJITH KUMAR PULI</a>
+  <nav aria-label="Main navigation">
+    <a href="#home" class="on">Home</a><a href="#about">About</a><a href="#service">Service</a><a href="#project">Project</a><a href="#ai">AI/ML</a><a href="#stack">Skills</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home">
+  <canvas id="cv" aria-hidden="true"></canvas>
+  <h1 class="big">PORTFOLIO</h1>
+  <div class="role">
+    <p>Python <em id="rt">Developer</em></p>
+    <a class="btn" href="#contact">Contact</a>
+  </div>
+</section>
+
+<div class="mq" aria-hidden="true"><div class="mqt" id="mqt"></div></div>
+
+<section id="about">
+  <h2>About <em>me</em></h2>
+  <div class="about">
+    <div>
+      <p>I’m Ajith, a Computer Science graduate from Hyderabad who builds web applications with Python and Django. I like turning a plain requirement into something that works end to end: the schema, the API and the screen.</p>
+      <p>My projects range from a library system holding over 1,000 book records to an image-processing pipeline for underwater photos. I’m looking for an entry-level software developer role at a product-based company.</p>
+    </div>
+    <div class="facts">
+      <div><b>7.47</b><span>CGPA, B.Tech CSE (2022–2026)</span></div>
+      <div><b>1,000+</b><span>book records in my Django project</span></div>
+      <div><b>4</b><span>public repositories on GitHub</span></div>
+      <div><b>2</b><span>Oracle Cloud AI certifications</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="service">
+  <h2>What I <em>do</em></h2>
+  <div class="svc" id="svc">
+    <div class="row"><button type="button" aria-expanded="false"><span class="n">01</span><span>Python development</span><span class="arr">↓</span></button><div class="d"><p>Clean, object-oriented Python for scripts, automation and web back ends, written with debugging and documentation in mind.</p></div></div>
+    <div class="row"><button type="button" aria-expanded="false"><span class="n">02</span><span>Django &amp; REST APIs</span><span class="arr">↓</span></button><div class="d"><p>Django apps with authentication, CRUD and search, plus APIs built with Django REST Framework.</p></div></div>
+    <div class="row"><button type="button" aria-expanded="false"><span class="n">03</span><span>Full-stack web</span><span class="arr">↓</span></button><div class="d"><p>Responsive front ends in HTML, CSS and JavaScript, and React for more interactive screens.</p></div></div>
+    <div class="row"><button type="button" aria-expanded="false"><span class="n">04</span><span>Databases with SQL</span><span class="arr">↓</span></button><div class="d"><p>Schemas for MySQL and SQL-compatible databases, with queries tuned for speed and data integrity.</p></div></div>
+    <div class="row"><button type="button" aria-expanded="false"><span class="n">05</span><span>Image processing</span><span class="arr">↓</span></button><div class="d"><p>OpenCV and NumPy workflows for improving colour, contrast and visibility in images.</p></div></div>
+    <div class="row"><button type="button" aria-expanded="false"><span class="n">06</span><span>Git workflow &amp; docs</span><span class="arr">↓</span></button><div class="d"><p>Version control through GitHub, testing, and documentation that lets a teammate pick the code up quickly.</p></div></div>
+  </div>
+</section>
+
+<section id="project">
+  <h2>Selected <em>work</em></h2>
+
+  <article class="proj">
+    <div class="shot lib" role="img" aria-label="Illustrative layout of the library catalogue screen">
+      <div class="bar"><b></b><b></b><b></b><span>Library catalogue</span></div>
+      <div class="bd">
+        <div class="top"><div class="sr">Search title, author or ISBN</div><div class="ct">1,000+ books</div></div>
+        <div class="tb">
+          <div><span>Clean Code</span><em>R. C. Martin</em><u class="ok">Available</u></div>
+          <div><span>Fluent Python</span><em>L. Ramalho</em><u class="out">Issued</u></div>
+          <div><span>Django for Beginners</span><em>W. S. Vincent</em><u class="ok">Available</u></div>
+          <div><span>Database System Concepts</span><em>A. Silberschatz</em><u class="ok">Available</u></div>
+          <div><span>Introduction to Algorithms</span><em>T. H. Cormen</em><u class="out">Issued</u></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <small>01</small>
+      <h3>LIBRARY <em>management</em><br>SYSTEM</h3>
+      <p>A Django web application that manages more than 1,000 book records. It supports CRUD operations, search and user authentication, with a REST API and a React front end on a MySQL database.</p>
+      <ul class="tags"><li>Python</li><li>Django</li><li>DRF</li><li>React</li><li>MySQL</li></ul>
+      <div class="acts"><a class="btn solid" href="https://github.com/ajithkumar0102" target="_blank" rel="noopener">GitHub ↗</a></div>
+    </div>
+  </article>
+
+  <article class="proj">
+    <div class="cmpwrap">
+      <div class="tabs" role="group" aria-label="Choose an underwater comparison">
+        <button type="button" class="on" aria-pressed="true">Manta rays</button>
+        <button type="button" aria-pressed="false">Reef</button>
+      </div>
+      <figure class="cmp"><img src="images/manta-before.jpg" alt="Manta rays underwater before enhancement"><img class="aft" src="images/manta-after.jpg" alt="Manta rays underwater after enhancement"><span class="lb l">Before</span><span class="lb r">After</span><input type="range" min="0" max="100" value="50" aria-label="Drag to compare before and after"><i class="hd"></i><figcaption>Sample photo: before and after enhancement</figcaption></figure>
+      <figure class="cmp" hidden><img src="images/reef-before.jpg" alt="Anemone and clownfish before enhancement"><img class="aft" src="images/reef-after.jpg" alt="Anemone and clownfish after enhancement"><span class="lb l">Before</span><span class="lb r">After</span><input type="range" min="0" max="100" value="50" aria-label="Drag to compare before and after"><i class="hd"></i><figcaption>Sample photo: before and after enhancement</figcaption></figure>
+    </div>
+    <div>
+      <small>02</small>
+      <h3>UNDERWATER <em>image</em><br>ENHANCEMENT</h3>
+      <p>A Python application that improves colour, contrast and visibility in underwater photos. It uses wavelet-based fusion with weighted visual perception to combine enhanced versions of each image.</p>
+      <ul class="tags"><li>Python</li><li>OpenCV</li><li>NumPy</li><li>Matplotlib</li></ul>
+      <div class="acts"><a class="btn solid" href="https://github.com/ajithkumar0102/underwater-image-enhancement" target="_blank" rel="noopener">GitHub ↗</a></div>
+    </div>
+  </article>
+
+</section>
+
+<section id="ai">
+  <h2>AI &amp; ML <em>basics</em></h2>
+  <div class="ai">
+    <div>
+      <p>I’m building a foundation in artificial intelligence and machine learning. What follows is conceptual knowledge from my two Oracle AI certifications and my image-processing project, which I’m now turning into hands-on practice.</p>
+      <ul class="tags"><li>Machine learning</li><li>Neural networks</li><li>Computer vision</li><li>Generative AI</li></ul>
+    </div>
+    <canvas id="nn" role="img" aria-label="Animated neural network diagram"></canvas>
+  </div>
+  <div class="aic">
+    <div><h3>Learning types</h3><p>Supervised learning predicts labels (classification, regression). Unsupervised learning finds structure such as clusters. Reinforcement learning learns from rewards.</p></div>
+    <div><h3>Model workflow</h3><p>Collect and clean data, choose features, split into train and test sets, train, then evaluate with accuracy, precision and recall. Watch for overfitting.</p></div>
+    <div><h3>Neural networks</h3><p>Layers of neurons apply weights and activation functions. Backpropagation adjusts the weights to reduce error. CNNs are the standard choice for images.</p></div>
+    <div><h3>Computer vision</h3><p>Images are arrays of pixels. Filtering, contrast and colour correction, and wavelet fusion are the ideas behind my underwater enhancement project.</p></div>
+    <div><h3>Generative AI &amp; LLMs</h3><p>Large language models use transformers to predict the next token. Prompting, context and tool use shape how AI assistants and agents behave.</p></div>
+    <div><h3>Responsible AI</h3><p>Biased data gives biased models, so data quality, fairness and privacy matter as much as accuracy.</p></div>
+  </div>
+</section>
+
+<section id="stack">
+  <h2>Tools &amp; <em>credentials</em></h2>
+  <div class="stack"><span>Python</span><span>Django</span><span>Django REST Framework</span><span>JavaScript</span><span>React</span><span>HTML</span><span>CSS</span><span>SQL / MySQL</span><span>OpenCV</span><span>NumPy</span><span>BeautifulSoup</span><span>Git &amp; GitHub</span><span>OOP</span></div>
+  <ul class="certs">
+    <li>Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate</li>
+    <li>Oracle Fusion AI Agent Studio Certified Foundations Associate</li>
+    <li>SQL, Oracle Academy</li>
+    <li>Basics of Python, HTML5 and CSS3, Infosys Springboard</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <div>
+    <div class="avail">AVAILABLE FOR WORK</div>
+    <h2>Get in <em>touch</em></h2>
+    <p class="contact-intro">I’m open to entry-level software developer roles in Python, Django and full-stack development. Email is the fastest way to reach me.</p>
+    <div class="acts">
+      <a class="btn solid" href="mailto:ajithkumarpuli22@gmail.com">Send an email</a>
+      <a class="btn" href="https://www.linkedin.com/in/ajith0102" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a class="btn" href="https://github.com/ajithkumar0102" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
+  <div class="card">
+    <div><small>Email</small><a href="mailto:ajithkumarpuli1224@gmail.com">ajithkumarpuli1224@gmail.com</a></div>
+    <div><small>Phone</small><a href="tel:+9163017147">+91 63017 14793</a></div>
+    <div><small>Based in</small>Hyderabad, Telangana, India</div>
+  </div>
+</section>
+</main>
+<footer align="center">© 2026 Ajith Kumar Puli. All rights reserved.</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
